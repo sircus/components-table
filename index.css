@@ -4,7 +4,7 @@
   --Table-padding: var(--g-space-sm);
   --Table-borderColor: var(--g-borderColor);
   --Table-evenColor: var(--g-mono-2);
-  }
+}
 
 
 /*　sircus-components-table
@@ -14,41 +14,37 @@
   width: 100%;
   max-width: 100%;
   padding: 0;
-
   text-align: left;
-  }
+}
 
 .Table th,
 .Table td {
   padding: var(--Table-padding);
-
   border-top: var(--Table-border);
-  }
+}
 
 .Table > thead {
   border-bottom:var(--Table-divitedBorder);
-  }
+}
 .Table > tfoot {
   border-top:var(--Table-divitedBorder);
-  }
+}
 
 .Table tr:first-child th,
 .Table tr:first-child td {
   border-top:0;
-  }
-
+}
 
 
 .Table--even tr:nth-child(even) {
   background-color: var(--Table-evenColor);
-  }
-
+}
 
 
 .Table--border {
   border:var(--Table-border);
-  }
+}
 .Table--border th,
 .Table--border td {
   border-left:var(--Table-border);
-  }
+}

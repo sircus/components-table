@@ -7,8 +7,6 @@ $Table-padding: $g-space-sm !default;
 $Table-borderColor: $g-borderColor !default;
 $Table-evenColor: $g-mono-2 !default;
 
-// Custom Media Query Variables
-
 
 /*　sircus-components-table
 ======================================== */
@@ -17,41 +15,37 @@ $Table-evenColor: $g-mono-2 !default;
   width: 100%;
   max-width: 100%;
   padding: 0;
-
   text-align: left;
-  }
+}
 
 .Table th,
 .Table td {
   padding: $Table-padding;
-
   border-top: $Table-border;
-  }
+}
 
 .Table > thead {
   border-bottom:$Table-divitedBorder;
-  }
+}
 .Table > tfoot {
   border-top:$Table-divitedBorder;
-  }
+}
 
 .Table tr:first-child th,
 .Table tr:first-child td {
   border-top:0;
-  }
-
+}
 
 
 .Table--even tr:nth-child(even) {
   background-color: $Table-evenColor;
-  }
-
+}
 
 
 .Table--border {
   border:$Table-border;
-  }
+}
 .Table--border th,
 .Table--border td {
   border-left:$Table-border;
-  }
+}

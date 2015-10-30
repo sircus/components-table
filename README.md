@@ -2,16 +2,12 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-components-table.svg?style=flat)](https://www.npmjs.com/package/sircus-components-table)
 
-## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
-
-
 ## Installation
 
 > npm:
 
 ```bash
-$ npm install sircus-components-table sircus-global-property
+$ npm install sircus-components-table sircus-variables
 ```
 
 ## Usage
@@ -21,14 +17,14 @@ $ npm install sircus-components-table sircus-global-property
 input.css
 ```css
 @import "sircus-components-table";
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "node_modules/sircus-global-property/converted";
+@import "node_modules/sircus-variables/converted";
 @import "node_modules/sircus-components-table/converted";
 ```
 

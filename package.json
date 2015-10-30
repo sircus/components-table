@@ -1,17 +1,17 @@
 {
   "name": "sircus-components-table",
-  "description": "Base module for the Sircus Table component.",
+  "description": "Module For Table Elements.",
   "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalable",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",

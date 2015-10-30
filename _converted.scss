@@ -1,6 +1,3 @@
-
-// Converted Variables
-
 $Table-border: 1px solid $g-borderColor !default;
 $Table-divitedBorder: 2px solid $g-borderColor !default;
 $Table-padding: $g-space-tn $g-gutter !default;
@@ -10,7 +7,6 @@ $Table-evenColor: $g-gray-5 !default;
 
 /*　sircus-components-table
 ======================================== */
-
 .Table {
   width: 100%;
   max-width: 100%;
@@ -25,27 +21,27 @@ $Table-evenColor: $g-gray-5 !default;
 }
 
 .Table > thead {
-  border-bottom:$Table-divitedBorder;
+  border-bottom: $Table-divitedBorder;
 }
+
 .Table > tfoot {
-  border-top:$Table-divitedBorder;
+  border-top: $Table-divitedBorder;
 }
 
 .Table tr:first-child th,
 .Table tr:first-child td {
-  border-top:0;
+  border-top: 0;
 }
-
 
 .Table--even tr:nth-child(even) {
   background-color: $Table-evenColor;
 }
 
-
 .Table--border {
-  border:$Table-border;
+  border: $Table-border;
 }
+
 .Table--border th,
 .Table--border td {
-  border-left:$Table-border;
+  border-left: $Table-border;
 }

@@ -1,7 +1,7 @@
 :root {
   --Table-border: 1px solid var(--g-borderColor);
   --Table-divitedBorder: 2px solid var(--g-borderColor);
-  --Table-padding: var(--g-space-sm);
+  --Table-padding: var(--g-space-tn) var(--g-gutter);
   --Table-borderColor: var(--g-borderColor);
   --Table-evenColor: var(--g-gray-5);
 }
